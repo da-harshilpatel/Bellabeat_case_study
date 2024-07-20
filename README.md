@@ -1,4 +1,4 @@
-# Bellabeat_case_study
+# Bellabeat case study
 
 
 ## Phase 1: Ask - A clear summary of the business task
@@ -26,20 +26,33 @@ Command used: create database bellabeat;
 2. Imported csv files to databse.
    #### Formatting data
   - Converted columns to correct data types
-  - ![Changing column types](Format_column.png)
+    
+    ![Changing column types](Format_column.png)
+    
   - Table minutesleep_merged has information about each minute user slept and each minute they spend time in bed. Calcuting total minutes slept and total time spend in bed by a user on any given day and storing the values in new columns.
-  - ![Calculating sleeptime](sleep_time_calculated.png)
+    
+    ![Calculating sleeptime](sleep_time_calculated.png)
+    
   - Checking for any duplicates and removing duplicates
-  - ![Checking for duplicates](Finding_duplicates.png)
+    
+   ![Checking for duplicates](Finding_duplicates.png)
+   
   - Duplicates were found in minutesleep_merged table. Duplicate columns were removed and stored the data in new table sleepday_merged.
   - Creating new base table as hourlydata which will be connected with PowerBI to create an interactive dashboard to present the findings to stakeholders.
-  - [Creating a new table](creating_base_table.png)
+    
+   ![Creating a new table](creating_base_table.png)
+   
   - Joining tables.
-  - ![Creating a new table](joining_3_tables.png)
+    
+   ![Creating a new table](joining_3_tables.png)
+   
   - Tables hourlysteps_merged, hourlycalories_merged and hourlyintensities_merged contains information about steps, calories and intensity of user for every hour of the day. Aggrerating steps, calories and intensties to calculate those columns on day to day basis.
-  - ![Aggregating rows](Aggregating_rows.png)
+    
+    ![Aggregating rows](Aggregating_rows.png)
+    
   - Created a new columns for each user to identify how actove they are depending on number of steps taked throughout the day.
-  - ![Activity status](Activity_status.png)
+
+    ![Activity status](Activity_status.png)
 
 ## Phase 4: Analyse - Analyse the data
             
