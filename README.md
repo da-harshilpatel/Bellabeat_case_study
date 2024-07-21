@@ -54,6 +54,10 @@ Command used: create database bellabeat;
 
     ![Activity status](Activity_status.png)
 
+     - Below is the ERD(Entity relationship diagram) for the schema. Giving an idea about the relationships between different tables used in this analysis.
+
+    ![ERD](ERD.png)
+
 ## Phase 4: Analyse - Analyse the data
             
 ## Phase 5: Supporting visualisation and Key findings
