@@ -42,15 +42,14 @@ Command used: create database bellabeat;
     
    ![Creating a new table](creating_base_table.png)
    
-  - Joining tables.
+  - Inserting values in hourlydata table from different tables.
     
    ![Creating a new table](joining_3_tables.png)
    
-  - Tables hourlysteps_merged, hourlycalories_merged and hourlyintensities_merged contains information about steps, calories and intensity of user for every hour of the day. Aggrerating steps, calories and intensties to calculate those columns on day to day basis.
+  - Tables hourlysteps_merged contains information about steps of user for every hour of the day. Aggrerating steps to calculate on day to day basis.
+   
     
-    ![Aggregating rows](Aggregating_rows.png)
-    
-  - Created a new columns for each user to identify how actove they are depending on number of steps taked throughout the day.
+  - Identifying how active they are depending on number of steps taked throughout the day.
 
     ![Activity status](Activity_status.png)
 
