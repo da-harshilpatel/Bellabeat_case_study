@@ -45,10 +45,15 @@ Command used: create database bellabeat;
   - Inserting values in hourlydata table from different tables.
     
    ![Creating a new table](joining_3_tables.png)
+
+   - Inserting more columns in hourlydata table from other tables
+   
+    ![Adding more columns](Adding_more_data(1).png)
+    ![Adding more columns](Adding_more_data(2).png)
    
   - Tables hourlysteps_merged contains information about steps of user for every hour of the day. Aggrerating steps to calculate on day to day basis.
    
-    
+   
   - Identifying how active they are depending on number of steps taked throughout the day.
 
     ![Activity status](Activity_status.png)
