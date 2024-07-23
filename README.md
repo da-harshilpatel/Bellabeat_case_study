@@ -1,7 +1,7 @@
 # Bellabeat case study
 
 
-## Phase 1: Ask - A clear summary of the business task
+## Phase 1: Ask - idea of the business requirement
 ### Business Task
    - Analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices, then select one Bellabeat product to apply these insights into Bellabeat's marketing strategy.
 
@@ -10,7 +10,7 @@
 2. How could these trends apply to Bellabeat customers?
 3. How could these trends help influence Bellabeat marketing strategy?
 
-## Phase 2: Prepare - Description of datasets used
+## Phase 2: Prepare - Datasets used
 ### Prepare
   -This project uses public data to explore the daily habits of smart device users. The dataset, available on Kaggle, includes personal fitness tracker data from thirty Fitbit users who consented to share their minute-level data. This dataset encompasses various metrics such as physical activity, heart rate, and sleep monitoring. It provides detailed information on daily activities, steps taken, and heart rate, offering valuable insights into users’ habits.
 
@@ -63,6 +63,29 @@ Command used: create database bellabeat;
 
     ![ERD](ERD.png)
 
-## Phase 4: Analyse - Analyse the data
-            
-## Phase 5: Supporting visualisation and Key findings
+## Phase 4: Analyse the data
+   
+## Phase 5: Dashboard and Key Findings
+![Dashboard](Final_dashboard.png)
+
+-KPI (Key Performance Indicators)
+
+   -Average Calories burned: 2248/day
+   
+   -Average Steps taken: 6838/day (approximately 5.22km/day) (WHO recommends atleaset 10,000 steps a day to maintin good health)
+   
+   -Average sleep minutes: 472 minutes/day (approximately 7.8 hours/day)
+
+   
+## Phase 6: Act- Recommendations for Bellabeat
+
+   - The analysis indicates that users are most active on Wednesdays, with the highest steps taken and calories burned, while weekends show the lowest activity levels. To enhance overall engagement and balance activity throughout the week, it is recommended to introduce weekend challenges and send personalized notifications to encourage more activity on weekends. These strategies aim to boost user engagement and satisfaction.
+
+
+   - The graph shows a positive correlation between sleep time and minutes spent in bed. To improve user satisfaction and encourage better sleep habits, we suggest offering personalized sleep insights and tips, implementing features to monitor sleep quality, and sending bedtime reminders to help users maintain consistent sleep schedules. These efforts will aid users in achieving better sleep health and overall well-being.
+
+
+   - The analysis reveals that users spend an average of 82% of their day in sedentary activities. To mitigate this, we suggest encouraging regular movement breaks, promoting activities to decrease sedentary time, and providing personalized reminders to increase daily activity. These measures will enhance user health and satisfaction.
+
+
+   - The analysis indicates a positive correlation between the number of steps taken and the total distance covered. To capitalize on this, we suggest implementing step-counting challenges and offering users personalized distance goals to encourage more walking. These approaches will enhance user engagement and satisfaction.
